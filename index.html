@@ -1,9 +1,6 @@
-<!DOCTYPE html>
 <html>
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Piedra, papel y tijera</title>
@@ -16,16 +13,10 @@
         <h1 class="titulo">PIEDRA PAPEL Y TIJERA</h1>
     </div>
     <hr>
-
-
     
     <div class="cont3">
-    
-    <span>PUNTAJE</span><br>
-    <span>0 </span> : <span> 0</span>
-    
-    
-    
+        <span>PUNTAJE</span><br>
+        <span id="usuario"></span> : <span id="bot"></span>
     </div>
     
     
@@ -33,18 +24,26 @@
     
     
     <div class="cont4">
-        <svg width="200" height="200">
-        <circle cx="100" cy="100" r="80" stroke="#456173" stroke-width="2" fill="none" />
-    </svg>
+        <svg width="200" height="200" id="piedra" xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <circle cx="100" cy="100" r="80" stroke="#ffaf87" stroke-width="2" fill="transparent" onclick="piedra()"/>       
+        </svg>
 
-        <svg width="200" height="200">
-        <circle cx="100" cy="100" r="80" stroke="#456173" stroke-width="2" fill="none" />
-    </svg>
+        <svg width="200" height="200" id="papel">
+            <circle cx="100" cy="100" r="80" stroke="#ffaf87" stroke-width="2" fill="transparent" onclick="papel()"/>
+        </svg>
 
-        <svg width="200" height="200">
-        <circle cx="100" cy="100" r="80" stroke="#456173" stroke-width="2" fill="none" />
-    </svg>
+        <svg width="200" height="200" id="tijera">
+            <circle cx="100" cy="100" r="80" stroke="#ffaf87" stroke-width="2" fill="transparent" onclick="tijera()"/>
+        </svg>
     </div>
+    
+    
+    
+    <div class="cont5">
+        <span id="compare" style=”display:inline-block;”></span><br/>
+        <p id="resultado"></p>
+    </div>
+    
 
 </div>
 
