@@ -1,22 +1,22 @@
 body {
-    background-color: #eef0f2;
+    background-color: #374955;
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: 'Montserrat', sans-serif;
 }
 
 hr {
-    border-color: #ffaf87;
+    border-color: #f62a66;
     width: 600px;
     border-top-width: 0px;
 }
 .cont1 {
-    background-color: #13293d;
+    background-color: #203541;
     width: 900px;
     text-align: center;
     margin: 0px auto 0px auto;
     height: 1000px;
-    box-shadow: 0px 0px 13px;
+    box-shadow: 0px 0px 5px;
 }
 
 .cont2 {  
@@ -33,7 +33,7 @@ hr {
     font-size: 40px;
     font-weight: bold;
     padding:40px;
-    color: #ffaf87;
+    color: #ffd933;
 }
 
 #piedra:hover, #papel:hover, #tijera:hover {
@@ -45,12 +45,12 @@ hr {
     margin:0;
     position:relative;
     font-size: 64px;
-    color: #eef0f2;
+    color: #f62a66;
     font-weight: lighter;
 }
 
 .cont5 {
-    color: #a6ed8e;
+    color: #ffd933;
     font-weight: bold;
 }
 
