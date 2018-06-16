@@ -1,22 +1,22 @@
 body {
-    background-color: #456173;
+    background-color: #eef0f2;
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: 'Montserrat', sans-serif;
 }
 
 hr {
-    border-color: #456173;
+    border-color: #ffaf87;
     width: 600px;
     border-top-width: 0px;
 }
 .cont1 {
-    background-color: #1b3c59;
+    background-color: #13293d;
     width: 900px;
     text-align: center;
     margin: 0px auto 0px auto;
-    height: 1240px;
-    box-shadow: 0px 0px 20px;
+    height: 1000px;
+    box-shadow: 0px 0px 13px;
 }
 
 .cont2 {  
@@ -33,15 +33,27 @@ hr {
     font-size: 40px;
     font-weight: bold;
     padding:40px;
-    color: #a6ed8e;
+    color: #ffaf87;
 }
 
+#piedra:hover, #papel:hover, #tijera:hover {
+    cursor: pointer;
+}
 
 .titulo {
     
     margin:0;
     position:relative;
     font-size: 64px;
-    color: #f2f2f0;
+    color: #eef0f2;
     font-weight: lighter;
+}
+
+.cont5 {
+    color: #a6ed8e;
+    font-weight: bold;
+}
+
+#resultado {
+    font-size: 30px;
 }
